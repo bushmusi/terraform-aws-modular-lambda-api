@@ -8,7 +8,7 @@ A modular Terraform project for deploying AWS Lambda functions with API Gateway,
 
 ## Architecture
 
-![App Screenshot](app_screenshot.png)
+![Infra Diagram](Infra-diagram.png)
 
 **Design Overview:**
 - User requests go to API Gateway (HTTP API)
