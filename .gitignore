@@ -1,0 +1,30 @@
+# Terraform state
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+.terraform/
+.terraform.lock.hcl
+
+# Local .terraform directories
+**/.terraform/*
+
+# Sensitive files
+.env
+.env.*
+aws_credentials
+
+# Lambda deployment packages
+*.zip
+
+# Editor and OS files
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+
+# Ignore log files
+*.log 
